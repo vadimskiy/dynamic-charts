@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Dynamic charts
+
+## Build the app
+1. `git clone git@github.com:vadimskiy/dynamic-charts.git`
+2. `cd dynamic-charts`
+3. `yarn`
+4. `yarn start`
+5. Open http://localhost:3000 to view it in the browser
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
