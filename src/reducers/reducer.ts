@@ -4,8 +4,6 @@ export const initialState: any = {
 };
 
 export function reducer(state: any = {}, action: any) {
-    console.log('action: ', action);
-    // console.log('state: ', state);
     switch (action.type) {
         case 'SET_INITIAL_DATA':
             const newCharts = [

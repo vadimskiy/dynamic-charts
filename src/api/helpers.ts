@@ -17,6 +17,5 @@ export const getInitialDiagramData = async (timeNow: number) => {
 
 export const getNewNumber = async () => {
     const data = await getData(1) || [];
-    console.log('data: ', data[0]);
     return data[0];
 };

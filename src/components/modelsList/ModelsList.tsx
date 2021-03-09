@@ -33,7 +33,6 @@ const ModelsList: FC<ModelsListProps> = ({ handleClick, charts }) => {
                             Object.entries(models)?.map((item: any, i: number) => {
                                 const model = models[item[0]];
                                 const {name} = model;
-                                console.log('charts: ', charts);
                                 return (
                                     <div key={name}>
                                     <label>
